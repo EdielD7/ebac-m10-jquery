@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
 body {
     background-color: rgb(53, 53, 53);
     font: normal 12pt arial;
@@ -6,6 +13,10 @@ body {
 
 header {
     text-align: center;
+}
+
+h1 {
+    margin: 16px auto;
 }
 
 section {
@@ -18,7 +29,49 @@ section {
     margin: auto;
 }
 
+div {
+    margin-bottom: 16px;
+}
+
+div label {
+    font-weight: bold;
+    display: block;
+}
+
+div input,
+div textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+div textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 360px;
+    margin: auto;
+}
+
+button {
+    display: block;
+    width: 100%;
+    max-width: 120px;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
 footer {
     text-align: center;
     font-style: italic;
+    margin-top: 16px
 }
