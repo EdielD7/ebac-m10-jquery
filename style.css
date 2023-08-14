@@ -38,6 +38,11 @@ div label {
     display: block;
 }
 
+div label.error {
+    font-weight: normal;
+    color: red;
+}
+
 div input,
 div textarea {
     width: 100%;
